@@ -1536,7 +1536,7 @@ This correlation matrix indicates that while cryptocurrency prices generally mov
 
 ---
 
-# ** GARCH Insights**
+# **GARCH Insights**
 
 ![image alt](https://github.com/LexMainye/Crypto-Price-Analysis/blob/0c276fedf75b51f54187039d48fff82bc3fe2af6/crypto_kes_5year_project/5year_plots/Monthly%20Plots/GARCH%20Model%20Plots/ADA_garch_volatility.png)
 ![image alt](https://github.com/LexMainye/Crypto-Price-Analysis/blob/0c276fedf75b51f54187039d48fff82bc3fe2af6/crypto_kes_5year_project/5year_plots/Monthly%20Plots/GARCH%20Model%20Plots/BTC_garch_volatility.png)
