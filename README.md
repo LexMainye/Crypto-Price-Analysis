@@ -256,3 +256,55 @@ graph TD
 
 ---
 # Analysis Findings
+
+
+# Background Information about the Crypto currencies Being Analysed
+
+**Bitcoin: <img src="https://cryptologos.cc/logos/bitcoin-btc-logo.png" alt="Bitcoin" width="15"/>**
+
+Bitcoin (abbreviation: BTC; sign: ₿) is the first decentralized cryptocurrency. Based on a free-market ideology, bitcoin was invented in 2008 by an unknown entity under the pseudonym of Satoshi Nakamoto. Use of bitcoin as a currency began in 2009, with the release of its open-source implementation.: ch. 1  In 2021, El Salvador adopted it as legal tender. It is mostly seen as an investment and has been described by some scholars as an economic bubble. As bitcoin is pseudonymous, its use by criminals has attracted the attention of regulators, leading to its ban by several countries as of 2021.
+
+Bitcoin works through the collaboration of computers, each of which acts as a node in the peer-to-peer bitcoin network. Each node maintains an independent copy of a public distributed ledger of transactions, called a blockchain, without central oversight. 
+
+Transactions are validated through the use of cryptography, making it practically impossible for one person to spend another person's bitcoin, as long as the owner of the bitcoin keeps certain sensitive data secret. 
+
+Consensus between nodes about the content of the blockchain is achieved using a computationally intensive process based on proof of work, called mining, which is typically performed by purpose-built computers called miners. These miners don't directly act as nodes, but do communicate with nodes.
+
+The mining process is primarily intended to prevent double-spending and get all nodes to agree on the content of the blockchain, but it also has desirable side-effects such as making it infeasible for adversaries to stifle valid transactions or alter the historical record of transactions, since doing so generally requires the adversary to have access to more mining power than the rest of the network combined.: ch. 12  It is also used to regulate the rate at which new bitcoin is issued and enters circulation. Mining consumes large quantities of electricity and has been criticized for its environmental impact.
+
+--------------------------------------------------------------------------------
+
+**Ethereum: <img src="https://cryptologos.cc/logos/ethereum-eth-logo.png" alt="Ethereum" width="15"/>**
+
+Ethereum is a decentralized blockchain with smart contract functionality. Ether (abbreviation: ETH) is the native cryptocurrency of the platform. Among cryptocurrencies, ether is second only to bitcoin in market capitalization. It is open-source software.
+
+Ethereum was conceived in 2013 by programmer Vitalik Buterin. Other founders include Gavin Wood, Charles Hoskinson, Anthony Di Iorio, and Joseph Lubin. In 2014, development work began and was crowdfunded, and the network went live on 30 July 2015. Ethereum allows anyone to deploy decentralized applications onto it, with which users can interact. Decentralized finance (DeFi) applications provide financial instruments that do not directly rely on financial intermediaries like brokerages, exchanges, or banks. This facilitates borrowing against cryptocurrency holdings or lending them out for interest. 
+
+Ethereum also allows users to create and exchange non-fungible tokens (NFTs), which are tokens that can be tied to unique digital assets, such as images. Additionally, many other cryptocurrencies utilize the ERC-20 token standard on top of the Ethereum blockchain and have utilized the platform for initial coin offerings.
+
+On 15 September 2022, Ethereum transitioned its consensus mechanism from proof-of-work (PoW) to proof-of-stake (PoS) in an update known as "The Merge", which cut the blockchain's energy usage by 99%.
+
+--------------------------------------------------------------------------------
+
+**Cardano:<img src="https://cryptologos.cc/logos/cardano-ada-logo.png" alt="Cardano" width="15"/>**
+
+Cardano is a public blockchain platform which uses the cryptocurrency ADA to facilitate transactions.
+Cardano's development began in 2015, led by Ethereum co-founder Charles Hoskinson. The project is overseen and supervised by the Cardano Foundation based in Zug, Switzerland. When launched in 2017, it was the largest cryptocurrency to use a proof of stake consensus mechanism, which is seen as more environmentally friendly than proof-of-work protocols.
+
+--------------------------------------------------------------------------------
+
+**Shiba Inu:<img src="https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/0x2859e4544C4bB03966803b044A93563Bd2D0DD4D/logo.png" width="15" alt="Shiba Inu">**
+
+Shiba Inu token (ticker: SHIB) is a decentralized cryptocurrency created in August 2020 by an anonymous person or group using the pseudonym "Ryoshi". It is inspired by the Shiba Inu (柴犬), a Japanese dog breed, which also serves as the mascot for Dogecoin, another cryptocurrency with meme origins. Some categorize Shiba Inu as a "meme coin." Concerns have been expressed about the concentration of the coin with a single "whale" wallet controlling billions of dollars' worth of the token, and frenzied buying by retail investors motivated by fear of missing out (FOMO). Shiba Inu was introduced with a branding that positioned it as a potential 'Dogecoin competitor'.
+
+On 13 May 2021, Vitalik Buterin donated more than 50 trillion SHIB (worth over $1 billion at the time) to the India COVID-Crypto Relief Fund. Also in May 2021, Buterin donated SHIB worth $665 million to the Future of Life Institute, which focuses on regulating artificial intelligence to protect from existential risk from advanced artificial intelligence.
+
+In October 2021, the market price of the cryptocurrency experienced a significant rise, reportedly increasing by 240% within a week. However, at the beginning of November, it faced a decline, reportedly losing approximately 55% of its value by the end of the month.
+
+--------------------------------------------------------------------------------
+
+**Ripple:<img src="https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ripple/info/logo.png" width="15" alt="XRP">**
+
+The XRP Ledger (XRPL), also called the Ripple Protocol, is a cryptocurrency platform launched in 2012 by Ripple Labs. The XRPL employs the native cryptocurrency known as XRP, and supports tokens, cryptocurrency or other units of value such as frequent flyer miles or mobile minutes....
+
+--------------------------------------------------------------------------------
