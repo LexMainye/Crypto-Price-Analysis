@@ -1748,3 +1748,130 @@ The GARCH plots reveal historical volatility patterns, with SHIB showing the hig
 
 ---
 
+# **Portfolio Simulation**
+---
+
+
+![image alt](https://github.com/LexMainye/Crypto-Price-Analysis/blob/41cffcd94770b5c5f96acf9cdb1aeb37ff5c07b2/crypto_kes_5year_project/5year_plots/Monthly%20Plots/Rolling%20Performance/rolling_performance.png)
+
+**Rolling Perfomance Insights**
+---
+
+The top graph displays the rolling 365-day CAGR (Compound Annual Growth Rate):
+- An extraordinary spike in early 2022, reaching over 6.0 (600% annual returns)
+- A swift decline following this peak
+- Negative territory (below 0%) from mid-2022 through early 2023
+- Recovery beginning in 2023
+- Relatively stable positive performance throughout most of 2024
+- Another peak cycle in late 2024/early 2025, reaching around 2.0 (200%)
+- Recent decline back toward 0% in early 2025
+
+The bottom graph shows the rolling 365-day Sharpe ratio (risk-adjusted returns):
+- Similar pattern to the CAGR but with less extreme values
+- Maximum Sharpe ratio of around 2.0-2.2 during strong periods
+- Deep negative territory (as low as -1.5) during late 2022/early 2023
+- Sustained period of favorable risk-adjusted returns (above 1.0) throughout most of 2024
+- Recent decline in early 2025 mirroring the CAGR pattern
+
+These graphs capture a full market cycle in cryptocurrencies:
+1. The aftermath of a major bull market (early 2022)
+2. A prolonged bear market (mid-2022 through early 2023)
+3. Recovery and stabilization (2023)
+4. Sustained positive performance (2024)
+5. Beginning of a potential new correction cycle (early 2025)
+
+The close tracking between CAGR and Sharpe ratio suggests that periods of higher returns generally provided adequate compensation for the additional risk taken. The extreme volatility shown in these metrics is characteristic of cryptocurrency markets.
+
+---
+# **Strategy Comparison**
+
+![image alt](https://github.com/LexMainye/Crypto-Price-Analysis/blob/41cffcd94770b5c5f96acf9cdb1aeb37ff5c07b2/crypto_kes_5year_project/5year_plots/Monthly%20Plots/Strategy%20Comparison/Strategy%20Comparison.png)
+
+**Strategy Compaison Plot Insights**
+---
+
+1. **Momentum Strategy (Green Line)**
+- **Best Performer:** Clearly outperforms both other strategies throughout the entire period.
+- **Consistent Uptrend:** Especially from mid-2023 onward, it shows a strong upward trend, peaking above **3.0 cumulative return**.
+- **Less Drawdown Sensitivity:** While it does experience some dips, the recoveries are strong and sustained.
+
+---
+
+2. **Volatility Targeting Strategy (Brown Line)**
+
+- **Moderate Performance:** While it underperforms the momentum strategy, it still delivers positive returns in the long run.
+- **Periods of Underperformance:** Notable drawdowns occurred around mid-2022 and early 2023.
+- **Stabilized Returns Later:** Shows some gains from late 2023 onward, eventually reaching about **1.0 cumulative return**.
+
+---
+
+3. **Equal Weight Strategy (Red Line)**
+- **Poor Performer:** This strategy shows almost **flat or negative** cumulative returns for the entire period.
+- **No Clear Growth:** Unlike the other two, it struggles to stay above 0.0 and remains mostly below it.
+- **Not Viable in This Period:** Likely not optimal given the market conditions during this timeframe.
+
+---
+
+ **Overall Insights:**
+
+- **Momentum** strategy is **clearly superior** in terms of return, possibly benefiting from trend-following in bullish markets.
+- **Volatility Targeting** shows **some defensive characteristics**, smoothing out returns, but underperforms in trending markets.
+- **Equal Weight** strategy seems to be vulnerable to downturns and doesn’t capitalize on upward trends.
+
+---
+
+# **Return Correlations**
+
+![image alt](https://github.com/LexMainye/Crypto-Price-Analysis/blob/41cffcd94770b5c5f96acf9cdb1aeb37ff5c07b2/crypto_kes_5year_project/5year_plots/Monthly%20Plots/Returns%20Correlations/crypto_correlations.png)
+
+**Returns Correlation Matrix Plot**
+---
+
+1. **SHIB's independence:** SHIB shows remarkably low correlation with all other cryptocurrencies (0.16 to 0.28), making it the most independent asset in the group. This explains why it appears isolated in the dendrogram and might explain its distinct behavior in your Monte Carlo simulation.
+
+2. **Strong BTC-ETH returns relationship:** Bitcoin and Ethereum returns show a very strong correlation (0.83), indicating they tend to move together most of the time.
+
+3. **Altcoin relationships:** ADA and XRP returns have a strong correlation with each other (0.71) and both show moderate to strong correlations with BTC and ETH.
+
+4. **Clustering patterns:** The dendrogram reveals two main clusters:
+
+  * Major cryptocurrencies: BTC and ETH returns form a tight cluster
+  * Altcoins: ADA and XRP returns form another cluster
+  * SHIB returns stands alone due to its low correlations with everything else
+
+---
+
+# **Monte Carlo Simulation**
+
+![image alt](https://github.com/LexMainye/Crypto-Price-Analysis/blob/41cffcd94770b5c5f96acf9cdb1aeb37ff5c07b2/crypto_kes_5year_project/5year_plots/Monthly%20Plots/Monte%20Carlo%20Simulation/Monte%20carlo%20simulation%20plot.png)
+
+**Monte Carlo Simulation Insights**
+---
+
+This plot shows the results of 1,000 Monte Carlo simulations using a box plot for five cryptocurrencies (BTC, ETH, ADA, SHIB, and XRP) over a simulated 1-year period, using historical data from April 2021 to March 2025 to model potential future outcomes.
+
+**What the visualization shows:**
+
+1. **Box plots with overlaid data points**: Each cryptocurrency has a box plot showing the statistical distribution of simulated returns, with individual simulation outcomes displayed as scattered points.
+
+2. **Return multipliers**: The y-axis represents return multipliers where 1.0 would be break-even (no gain/loss), 2.0 would represent doubling your investment, etc.
+
+3. **Distribution components**:
+   - Green horizontal lines represent median returns
+   - Red boxes show the interquartile range (middle 50% of outcomes)
+   - Red vertical lines ("whiskers") extend to the typical range of values
+   - Individual points represent specific simulation outcomes, with distant points being statistical outliers
+
+4. **Missing SHIB data**: Despite SHIB being in the dataset, no data points are visible in the plot. This could be due to extreme clustering of values.
+
+**Key insights:**
+
+1. **Return expectations**: All cryptocurrencies show median returns (green lines) slightly above 1.0, suggesting modest positive expected returns.
+
+2. **Asymmetric outcomes**: All coins display positively skewed distributions with potential for significant upside (particularly XRP, ETH, and ADA), while downside is generally limited.
+
+3. **Volatility comparison**: XRP shows the widest distribution of potential outcomes, suggesting the highest volatility, while BTC appears to have more concentrated outcomes.
+
+4. **Outlier potential**: ETH, ADA, and XRP all show simulation scenarios with returns exceeding 10x, indicating potential (though unlikely) paths to substantial gains.
+
+5. **Statistical patterns**: The simulation effectively captures both the individual volatility characteristics of each cryptocurrency and their correlations, based on their historical patterns.
