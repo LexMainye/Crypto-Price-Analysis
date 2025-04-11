@@ -1,11 +1,11 @@
 # Cryptocurrency Price Comparison Analysis
-![Bitcoin](https://img.shields.io/badge/Bitcoin-BTC-orange?logo=bitcoin)
-![Ethereum](https://img.shields.io/badge/Ethereum-ETH-blue?logo=ethereum)
-![XRP](https://img.shields.io/badge/XRP-XRP-black?logo=xrp)
-![Cardano](https://img.shields.io/badge/Cardano-ADA-blueviolet?logo=cardano)
-![Shiba Inu](https://img.shields.io/badge/Shiba_Inu-SHIB-red?logo=dogecoin)
+[![Bitcoin](https://img.shields.io/badge/Bitcoin-BTC-orange?logo=bitcoin)](https://bitcoin.org/en/)
+[![Ethereum](https://img.shields.io/badge/Ethereum-ETH-blue?logo=ethereum)](https://ethereum.org/en/)
+[![XRP](https://img.shields.io/badge/XRP-XRP-black?logo=xrp)](https://ripple.com/xrp/)
+[![Cardano](https://img.shields.io/badge/Cardano-ADA-blueviolet?logo=cardano)](https://cardano.org/)
+[![Shiba Inu](https://img.shields.io/badge/Shiba_Inu-SHIB-red?logo=dogecoin)](https://www.shibatoken.com/)
 
-[![Data Source](https://img.shields.io/badge/Source-Yahoo%20Finance-purple?logo=yahoo)](https://finance.yahoo.com)
+[![Data Source](https://img.shields.io/badge/Source-Yahoo%20Finance-purple?logo=yahoo)](https://finance.yahoo.com/markets/crypto/all/)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)](https://python.org)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
