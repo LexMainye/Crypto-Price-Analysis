@@ -232,6 +232,8 @@ plt.show()
 
 
 ### Workflow Diagram
+
+
 ```mermaid
 graph TD
     A[crypto_price.ipynb] -->|Saves data to| B[Google Drive]
