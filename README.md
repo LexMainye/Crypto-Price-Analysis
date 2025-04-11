@@ -235,9 +235,9 @@ plt.show()
 graph TD
     A[crypto_price.ipynb] -->|Saves data to| B[Google Drive]
     B -->|Loaded by| C[crypto_price_analysis.ipynb]
-    C --> D[Statistical Analysis]
-    C --> E[Visualizations]
-    C --> F[Performance Metrics]
+    C --> D[Price Analysis]
+    C --> E[Volatility Analysis]
+    C --> F[Porfolio Simulation]
 ```
 
 ### Recommended Colab Settings
