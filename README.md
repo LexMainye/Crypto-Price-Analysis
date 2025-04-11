@@ -70,7 +70,7 @@ Here's an expanded **Installation & Setup** section that clearly documents your 
 This project uses a two-notebook workflow in **Google Colab**:
 
 ### 1. Data Collection Notebook (`crypto_price.ipynb`)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/LexMainye/Crypto-Price-Analysis/blob/0a1e02675260d574f21667f6bd785d54c4d073f6/Crypto_Price_Data.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/LexMainye/Crypto-Price-Analysis/blob/main/Crypto_Price_Data.ipynb)
 
 **Purpose**: Fetches 5 years of historical OHLCV data from Yahoo Finance and saves it to Google Drive.
 
@@ -180,7 +180,7 @@ data_path = "/content/drive/MyDrive/CryptoProject/data/"
 ---
 
 ### 2. Analysis Notebook (`crypto_price_analysis.ipynb`)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/LexMainye/Crypto-Price-Analysis/blob/c531013dd70c566a262956fa34dabd842b7402e6/Crypto_Price_Analysis.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/LexMainye/Crypto-Price-Analysis/blob/main/Crypto_Price_Analysis.ipynb)
 
 **Purpose**: Performs statistical analysis and visualizations on the collected data.
 
