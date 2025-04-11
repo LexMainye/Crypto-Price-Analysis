@@ -602,7 +602,7 @@ The moving average crossover strategy effectively identifies major trends for BT
 
 The plot highlights the crypto market’s cyclical nature and varying risk profiles: SHIB is the most volatile, XRP surges post-2023, ETH and ADA offer balanced growth, and BTC remains the steadiest. Investors should align choices with risk tolerance, noting BTC’s market leadership and altcoins’ higher volatility.
 
-# ** Candle Stick Charts**
+# **Candle Stick Charts**
 
 ![image alt](https://github.com/LexMainye/Crypto-Price-Analysis/blob/ddbb7c44d72c0a0c43eb1c2f802d224f610fc9e6/crypto_kes_5year_project/5year_plots/Monthly%20Plots/Candle%20Stick%20Charts/ADA_candlestick_chart.png)
 ![image alt](https://github.com/LexMainye/Crypto-Price-Analysis/blob/ddbb7c44d72c0a0c43eb1c2f802d224f610fc9e6/crypto_kes_5year_project/5year_plots/Monthly%20Plots/Candle%20Stick%20Charts/BTC_candlestick_chart.png)
