@@ -1193,3 +1193,558 @@ Need a version with exact weekly historical win rates? I can append the backtest
 
 ---
 
+# **Volatility Regime Detection**
+
+![image alt](https://github.com/LexMainye/Crypto-Price-Analysis/blob/0c276fedf75b51f54187039d48fff82bc3fe2af6/crypto_kes_5year_project/5year_plots/Monthly%20Plots/Volatility%20Regime/ADA_volatility_regime.png)
+![image alt](https://github.com/LexMainye/Crypto-Price-Analysis/blob/0c276fedf75b51f54187039d48fff82bc3fe2af6/crypto_kes_5year_project/5year_plots/Monthly%20Plots/Volatility%20Regime/BTC_volatility_regime.png)
+![image alt](https://github.com/LexMainye/Crypto-Price-Analysis/blob/0c276fedf75b51f54187039d48fff82bc3fe2af6/crypto_kes_5year_project/5year_plots/Monthly%20Plots/Volatility%20Regime/ETH_volatility_regime.png)
+![image alt](https://github.com/LexMainye/Crypto-Price-Analysis/blob/0c276fedf75b51f54187039d48fff82bc3fe2af6/crypto_kes_5year_project/5year_plots/Monthly%20Plots/Volatility%20Regime/SHIB_volatility_regime.png)
+![image alt](https://github.com/LexMainye/Crypto-Price-Analysis/blob/0c276fedf75b51f54187039d48fff82bc3fe2af6/crypto_kes_5year_project/5year_plots/Monthly%20Plots/Volatility%20Regime/XRP_volatility_regime.png)
+
+**Volatility Regime Detection Insights**
+---
+
+ The graphs show the price of each cryptocurrency over time (from 2021 to 2025), with data points colored by their volatility regime. The volatility regimes are categorized as follows:
+
+- **Regime 0.0** (orange): Low volatility
+- **Regime 1.0** (green): Medium volatility
+- **Regime 2.0** (red): High volatility
+- **Regime nan** (blue): Undefined or missing volatility data
+
+The tables provide the average 30-day volatility (`30D_Vol`) and trading volume (`Volume`) for each volatility regime. Let’s analyze each cryptocurrency.
+
+---
+
+Below are Markdown tables summarizing the Volatility Regime Detection data for BTC, ETH, ADA, SHIB, and XRP. The tables include the 30-day annualized volatility (30D_Vol, in USD) and trading volume (in USD) across three volatility regimes (0.0, 1.0, 2.0).
+
+**BTC Volatility Regime Detection**
+
+| Vol_Regime | 30D_Vol (USD)  | Volume (USD)  |
+|------------|--------------|---------------|
+| 0.0        | 3262.927358  | 33,176,740,000 |
+| 1.0        | 1066.161078  | 23,849,150,000 |
+| 2.0        | 5737.748374  | 69,667,670,000 |
+
+**ETH Volatility Regime Detection**
+
+| Vol_Regime | 30D_Vol (USD)  | Volume (USD)  |
+|------------|--------------|---------------|
+| 0.0        | 322.665714   | 42,615,780,000 |
+| 1.0        | 81.773391    | 10,771,540,000 |
+| 2.0        | 260.908215   | 19,404,980,000 |
+
+**ADA Volatility Regime Detection**
+
+| Vol_Regime | 30D_Vol (USD)  | Volume (USD)  |
+|------------|--------------|---------------|
+| 0.0        | 0.026949     | 484,465,600   |
+| 1.0        | 0.123950     | 2,147,092,000 |
+| 2.0        | 5737.748374  | 69,667,670,000 |
+
+**SHIB Volatility Regime Detection**
+
+| Vol_Regime | 30D_Vol (USD)   | Volume (USD)  |
+|------------|--------------|---------------|
+| 0.0        | 0.000010     | 3,159,152,000 |
+| 1.0        | 0.000001     | 435,897,200   |
+| 2.0        | 0.000011     | 18,202,670,000 |
+
+**XRP Volatility Regime Detection**
+
+| Vol_Regime | 30D_Vol(USD)   | Volume (USD)  |
+|------------|--------------|---------------|
+| 0.0        | 0.040362     | 1,821,515,000 |
+| 1.0        | 0.391829     | 20,186,320,000 |
+| 2.0        | 0.200701     | 7,940,823,000 |
+
+---
+
+**1. BTC (Bitcoin)**
+
+ **Graph Analysis**
+- **Price Trend**: Bitcoin starts around 30,000 USD in early 2021, peaks near 60,000 USD by late 2021, dips to around 20,000 USD in 2022, remains relatively stable through 2023, and then surges dramatically in 2024, reaching over 100,000 USD by early 2025.
+
+- **Volatility Regimes**:
+  - **Early 2021**: Mostly green (Regime 1.0, medium volatility) with some orange (Regime 0.0, low volatility).
+  - **Late 2021**: A mix of red (Regime 2.0, high volatility) and orange, indicating a volatile period during the price peak.
+  - **2022-2023**: Predominantly green (medium volatility) with occasional orange and red spikes, reflecting a more stable period with intermittent volatility.
+  - **2024-2025**: As the price surges, we see a mix of red (high volatility) and orange (low volatility), suggesting that the rapid price increase came with significant volatility.
+
+**Table Analysis**
+
+- **Regime 0.0 (Low Volatility)**: Average 30-day volatility is 3262.93 USD (price fluctuation), with a trading volume of 33.18 billion USD.
+- **Regime 1.0 (Medium Volatility)**: Volatility drops to 1066.16 USD, with a lower trading volume of 23.85 billion USD.
+- **Regime 2.0 (High Volatility)**: Volatility spikes to 5737.75 USD, with a much higher trading volume of 69.67 billion USD.
+- **Insight**: High volatility (Regime 2.0) periods are associated with the largest price swings and significantly higher trading volumes, which aligns with the red data points during the 2021 peak and the 2024-2025 surge.
+
+---
+
+**2. ETH (Ethereum)**
+**Graph Analysis**
+
+- **Price Trend**: Ethereum starts around 1,000 USD in early 2021, peaks near 4,800 USD by late 2021, drops to around 1,000 USD in 2022, remains stable through 2023, and then rises again in 2024, reaching around 4,000 USD by early 2025.
+- **Volatility Regimes**:
+  - **Early 2021**: Mostly orange (low volatility) with some red (high volatility) as the price rises.
+  - **Late 2021**: Predominantly red (high volatility) during the peak, reflecting significant price swings.
+  - **2022-2023**: Mostly green (medium volatility) with occasional orange and red, indicating a more stable period.
+  - **2024-2025**: A mix of red (high volatility) and green (medium volatility) as the price rises again.
+
+**Table Analysis**
+
+- **Regime 0.0 (Low Volatility)**: 30-day volatility is 322.67 USD, with a trading volume of 42.62 billion USD.
+- **Regime 1.0 (Medium Volatility)**: Volatility drops to 81.77 USD, with a much lower trading volume of 10.77 billion USD.
+- **Regime 2.0 (High Volatility)**: Volatility rises to 260.91 USD, with a trading volume of 19.40 billion USD.
+- **Insight**: High volatility periods (Regime 2.0) have higher price swings but lower trading volumes compared to low volatility periods, suggesting that ETH’s high volatility periods might not always attract the highest trading activity.
+
+---
+
+**3. SHIB (Shiba Inu)**
+**Graph Analysis**
+
+- **Price Trend**: SHIB starts near 0 USD in 2021, spikes dramatically to around 0.00008 USD in late 2021, crashes back down in 2022, and remains relatively flat through 2023-2025 with minor spikes (e.g., around 2024).
+- **Volatility Regimes**:
+  - **Early 2021**: Mostly green (medium volatility) with some orange (low volatility).
+  - **Late 2021**: Predominantly red (high volatility) during the massive price spike.
+  - **2022-2025**: Mostly green (medium volatility) with occasional orange and red spikes, reflecting a more stable but still occasionally volatile period.
+
+**Table Analysis**
+
+- **Regime 0.0 (Low Volatility)**: 30-day volatility is 0.000010 USD, with a trading volume of 3.16 billion USD.
+- **Regime 1.0 (Medium Volatility)**: Volatility drops to 0.000001 USD, with a much lower trading volume of 435.90 million USD.
+- **Regime 2.0 (High Volatility)**: Volatility rises to 0.000011 USD, with a significantly higher trading volume of 18.20 billion USD.
+- **Insight**: High volatility periods (Regime 2.0) correspond to massive trading volume spikes, as seen during the 2021 price surge, indicating speculative trading during these periods.
+
+---
+
+**4. XRP (Ripple)**
+**Graph Analysis**
+
+- **Price Trend**: XRP starts around 0.50 USD in 2021, spikes to 1.50 USD in early 2021, drops to around 0.50 USD in 2022, remains stable through 2023-2024, and then surges to over 3.00 USD in early 2025.
+
+- **Volatility Regimes**:
+  - **Early 2021**: A mix of red (high volatility) and orange (low volatility) during the price spike.
+  - **2022-2024**: Mostly orange (low volatility) with occasional green and red, indicating a stable period.
+  - **Early 2025**: Predominantly red (high volatility) as the price surges.
+
+**Table Analysis**
+
+- **Regime 0.0 (Low Volatility)**: 30-day volatility is 0.040 USD, with a trading volume of 1.82 billion USD.
+- **Regime 1.0 (Medium Volatility)**: Volatility jumps to 0.392 USD, with a much higher trading volume of 20.19 billion USD.
+- **Regime 2.0 (High Volatility)**: Volatility is 0.201 USD, with a trading volume of 7.94 billion USD.
+- **Insight**: Medium volatility (Regime 1.0) periods have the highest trading volume, which is unusual compared to the other cryptocurrencies where high volatility typically drives the most volume. This might reflect specific market dynamics for XRP, such as regulatory news or adoption events.
+
+---
+
+ **5. ADA (Cardano)**
+
+**Graph Analysis**
+- **Price Trend**: ADA starts around 0.30 USD in 2021, peaks near 3.00 USD in late 2021, drops to around 0.30 USD in 2022, and remains relatively flat through 2023-2025 with minor fluctuations.
+
+- **Volatility Regimes**:
+  - **Early 2021**: Mostly orange (low volatility) with some red (high volatility) as the price rises.
+  - **Late 2021**: Predominantly red (high volatility) during the peak.
+  - **2022-2025**: Mostly orange (low volatility) with occasional green and red, indicating a stable period with minor volatility spikes.
+
+**Table Analysis**
+
+- **Regime 0.0 (Low Volatility)**: 30-day volatility is 0.027 USD, with a trading volume of 484.47 million USD.
+- **Regime 1.0 (Medium Volatility)**: Volatility rises to 0.124 USD, with a trading volume of 2.15 billion USD.
+- **Regime 2.0 (High Volatility)**: Volatility spikes to 0.286 USD, with a trading volume of 7.59 billion USD.
+- **Insight**: High volatility periods (Regime 2.0) are associated with the largest price swings and significantly higher trading volumes, as seen during the 2021 peak.
+
+---
+
+**General Observations and Comparisons**
+
+1. **Volatility and Price Movements**:
+   - Across all cryptocurrencies, high volatility (Regime 2.0, red) often coincides with significant price peaks (e.g., late 2021 for most coins, early 2025 for BTC and XRP). This suggests that rapid price increases or decreases are typically accompanied by high volatility.
+   - Low volatility (Regime 0.0, orange) periods often occur during price consolidation phases (e.g., 2022-2023 for most coins).
+
+2. **Trading Volume**:
+   - For BTC, SHIB, and ADA, high volatility periods (Regime 2.0) are associated with the highest trading volumes, indicating speculative trading during these times.
+   - For ETH, low volatility periods (Regime 0.0) have the highest trading volume, which might reflect more stable, long-term investor activity.
+   - For XRP, medium volatility (Regime 1.0) drives the highest trading volume, possibly due to specific market events like regulatory developments.
+
+3. **Price Trends**:
+   - BTC and ETH show significant growth by 2025, with BTC surpassing 100,000 USD and ETH reaching around 4,000 USD.
+   - XRP also shows a strong upward trend in 2025, reaching over 3.00 USD.
+   - SHIB and ADA, however, remain relatively flat after their 2021 peaks, with SHIB showing more volatility spikes due to its meme coin nature.
+
+4. **Volatility Regimes**:
+   - The classification of volatility regimes varies across coins. For example, BTC’s high volatility regime (5737.75 USD) is much larger in absolute terms compared to SHIB’s (0.000011 USD), which makes sense given the difference in price scales.
+
+---
+
+**Conclusion**
+
+These graphs and data provide a clear picture of how volatility regimes correlate with price movements and trading volumes for each cryptocurrency:
+- **BTC and ETH** exhibit strong growth with high volatility during major price surges, reflecting their status as leading cryptocurrencies.
+- **SHIB** shows extreme volatility during its 2021 spike, typical of meme coins, but remains flat afterward.
+- **XRP** has a unique pattern where medium volatility drives the highest trading volume, possibly due to external factors like regulatory news.
+- **ADA** follows a similar pattern to SHIB, with a significant peak in 2021 followed by a stable, low-volatility period.
+
+---
+
+# **Volume-Volatility Relationship**
+
+![image alt](https://github.com/LexMainye/Crypto-Price-Analysis/blob/0c276fedf75b51f54187039d48fff82bc3fe2af6/crypto_kes_5year_project/5year_plots/Monthly%20Plots/Volume-Volatility%20Relationship/ADA_volume_volatility.png)
+![image alt](https://github.com/LexMainye/Crypto-Price-Analysis/blob/0c276fedf75b51f54187039d48fff82bc3fe2af6/crypto_kes_5year_project/5year_plots/Monthly%20Plots/Volume-Volatility%20Relationship/BTC_volume_volatility.png)
+![image alt](https://github.com/LexMainye/Crypto-Price-Analysis/blob/0c276fedf75b51f54187039d48fff82bc3fe2af6/crypto_kes_5year_project/5year_plots/Monthly%20Plots/Volume-Volatility%20Relationship/SHIB_volume_volatility.png)
+![image alt](https://github.com/LexMainye/Crypto-Price-Analysis/blob/0c276fedf75b51f54187039d48fff82bc3fe2af6/crypto_kes_5year_project/5year_plots/Monthly%20Plots/Volume-Volatility%20Relationship/ETH_volume_volatility.png)
+![image alt](https://github.com/LexMainye/Crypto-Price-Analysis/blob/0c276fedf75b51f54187039d48fff82bc3fe2af6/crypto_kes_5year_project/5year_plots/Monthly%20Plots/Volume-Volatility%20Relationship/XRP_volume_volatility.png)
+
+**Volume vs. Volatility Trends**
+---
+
+**General Trend**:
+
+In crypto markets, higher trading volume often correlates with increased volatility due to heightened activity, but the strength of this relationship varies by asset.
+
+**Cryptocurrency Insights**
+
+1. **ADA (Cardano, Green)**  
+   - Volume: 10^7 to 10^10 USD (10 million to 10 billion USD).  
+   - Volatility: Mostly 50%–150%, with outliers up to 300%.  
+   - Insight: Volatility is higher at lower volumes (10^7–10^8 USD, often 100%–150%), suggesting low liquidity drives price swings. At higher volumes, volatility stabilizes somewhat (50%–150%), showing no strong correlation.
+
+2. **BTC (Bitcoin, Blue)**  
+   - Volume: 10^14 to 10^16 USD (likely a labeling error; more realistic is 10^10 to 10^12 USD, i.e., 10 billion to 1 trillion USD).  
+   - Volatility: 20%–100%, rarely above 120%.  
+   - Insight: Bitcoin has the lowest volatility, with a slight inverse relationship—higher volumes (e.g., 10^15 USD) often correspond to lower volatility (40%–80%). This reflects a mature market where high volumes may stabilize prices.
+
+3. **ETH (Ethereum, Red)**  
+   - Volume: 10^12 to 10^14 USD (likely a labeling error; more realistic is 10^9 to 10^11 USD, i.e., 1 billion to 100 billion USD).  
+   - Volatility: 25%–125%, with outliers up to 200%.  
+   - Insight: Volatility is moderate but variable across volumes. Lower volumes (10^12 USD) can see spikes (150%–200%), while higher volumes show no clear trend (50%–100%). External factors like DeFi activity likely drive volatility more than volume.
+
+4. **SHIB (Shiba Inu, Purple)**  
+   - Volume: 10^3 to 10^6 USD (1,000 to 1 million USD).  
+   - Volatility: 0%–1750%, the highest range.  
+   - Insight: SHIB shows extreme volatility at low volumes (10^3–10^4 USD, up to 1750%), typical of a low-liquidity meme coin. Higher volumes reduce volatility (below 500%), indicating a strong inverse relationship due to liquidity effects.
+
+5. **XRP (Ripple, Yellow)**  
+   - Volume: 10^8 to 10^11 USD (100 million to 100 billion USD).  
+   - Volatility: 50%–150%, with outliers up to 250%.  
+   - Insight: Volatility is moderate, with higher values at lower volumes (10^8 USD, 100%–150%). No strong volume-volatility trend, suggesting external factors like regulatory news influence price swings.
+
+ Comparative Insights
+
+- **Volatility Spectrum**: SHIB is the most volatile (up to 1750%), reflecting its speculative nature. BTC is the least volatile (20%–100%), showing market maturity. ADA, ETH, and XRP are mid-range (50%–150%).
+
+- **Volume-Volatility Link**: SHIB and BTC show clearer relationships—SHIB’s volatility drops with higher volumes due to liquidity, while BTC’s high volumes slightly reduce volatility, indicating stability. ADA, ETH, and XRP show weaker correlations, likely due to external drivers (e.g., network activity, news).
+
+- **Market Dynamics**: Smaller coins like SHIB suffer from low liquidity, causing extreme volatility at low volumes. Larger coins like BTC and ETH are more resilient, with higher volumes often linked to broader participation and less erratic price movements.
+
+**Broader Takeaway**
+The volume-volatility relationship in crypto varies by asset. Low-liquidity coins like SHIB see massive price swings at low volumes, while mature assets like BTC show more stability with higher volumes. For ADA, ETH, and XRP, volatility is less tied to volume, pointing to the influence of external factors like market sentiment or ecosystem developments. Note that BTC and ETH volume ranges may be mislabeled (likely 10^10–10^12 USD for BTC, 10^9–10^11 USD for ETH), but the patterns hold.
+
+--
+
+# **Advanced Volume Volatility Relationship**
+
+![image alt](https://github.com/LexMainye/Crypto-Price-Analysis/blob/0c276fedf75b51f54187039d48fff82bc3fe2af6/crypto_kes_5year_project/5year_plots/Monthly%20Plots/Advanced%20Volume%20Volatility%20Plot/ADA_volume_volatility.png)
+![image alt](https://github.com/LexMainye/Crypto-Price-Analysis/blob/0c276fedf75b51f54187039d48fff82bc3fe2af6/crypto_kes_5year_project/5year_plots/Monthly%20Plots/Advanced%20Volume%20Volatility%20Plot/BTC_volume_volatility.png)
+![image alt](https://github.com/LexMainye/Crypto-Price-Analysis/blob/0c276fedf75b51f54187039d48fff82bc3fe2af6/crypto_kes_5year_project/5year_plots/Monthly%20Plots/Advanced%20Volume%20Volatility%20Plot/ETH_volume_volatility.png)
+![image alt](https://github.com/LexMainye/Crypto-Price-Analysis/blob/0c276fedf75b51f54187039d48fff82bc3fe2af6/crypto_kes_5year_project/5year_plots/Monthly%20Plots/Advanced%20Volume%20Volatility%20Plot/SHIB_volume_volatility.png)
+![image alt](https://github.com/LexMainye/Crypto-Price-Analysis/blob/0c276fedf75b51f54187039d48fff82bc3fe2af6/crypto_kes_5year_project/5year_plots/Monthly%20Plots/Advanced%20Volume%20Volatility%20Plot/XRP_volume_volatility.png)
+
+**Advanced Volume-Volatility Relationship Insights**
+---
+
+Each plot uses a hexbin visualization where darker red areas indicate higher data point density. The marginal histograms along the top and right sides show the distribution of each variable independently.
+
+**Key observations for each cryptocurrency:**
+
+1. **ADA (Cardano)**: Shows volatility mostly between 40-120%, concentrated around log dollar volumes of 17-22. There appears to be a slight negative correlation between volume and volatility for the densest data points.
+
+2. **BTC (Bitcoin)**: Displays lower volatility (mostly 30-70%) than many other cryptocurrencies, with higher trading volumes (log values 34-36). The relationship forms a more compact cluster, suggesting Bitcoin's relative stability despite high trading volumes.
+
+3. **ETH (Ethereum)**: Shows volatility typically between 50-100% at log dollar volumes around 30-32. The pattern appears similar to Bitcoin but with slightly higher volatility.
+
+4. **SHIB (Shiba Inu)**: Shows dramatically higher volatility (up to 1750%) and lower volumes (log values 7-12) compared to the major cryptocurrencies. The densest concentration appears at very low volume and relatively low volatility (around 100%), but with numerous outliers showing extreme volatility.
+
+5. **XRP (Ripple)**: Shows its densest concentration at relatively low volatility (40-70%) and log dollar volumes around 19-20, with scattered data points extending toward higher volatility.
+
+**General trends across cryptocurrencies:**
+- Larger, more established cryptocurrencies (BTC, ETH) tend to show lower volatility despite higher trading volumes.
+- Smaller or newer cryptocurrencies (particularly SHIB) demonstrate much higher volatility, especially at lower trading volumes.
+- There's a general pattern suggesting that as volume increases, extreme volatility tends to decrease (though the relationship isn't perfectly linear).
+- Each cryptocurrency has its own characteristic "signature" in terms of its volume-volatility relationship.
+
+These relationships suggest that market maturity and liquidity (reflected in higher trading volumes) generally correspond with more stable price action.
+
+---
+
+# **Cross Asset Volatility comparison**
+
+![image alt](https://github.com/LexMainye/Crypto-Price-Analysis/blob/0c276fedf75b51f54187039d48fff82bc3fe2af6/crypto_kes_5year_project/5year_plots/Monthly%20Plots/Cross%20Asset%20Volatility%20Comparison/volatility_comparison.png)
+
+**Cross Asset Volatility Comparison Insights**
+
+- **Overall Trend**: Volatility for all coins peaks dramatically in early 2021, with SHIB (cyan) spiking to 800%, while others range between 100%–200%. After this peak, volatility generally declines, stabilizing below 100% for most coins by 2022, with occasional spikes.
+
+- **SHIB (Cyan)**: Exhibits the highest volatility, peaking at 800% in 2021 and showing multiple spikes (e.g., 200% in 2022 and 2024). This reflects its speculative, low-liquidity nature as a meme coin, prone to extreme price swings.
+
+- **BTC (Red) and ETH (Orange)**: Both show lower volatility compared to SHIB, peaking around 150%–200% in 2021, then stabilizing between 20%–80% from 2022 onward. This indicates greater market maturity and stability, with fewer extreme fluctuations.
+
+- **ADA (Green) and XRP (Blue)**: These mid-tier coins have volatility patterns similar to BTC and ETH, peaking at 150%–200% in 2021, then mostly staying between 50%–100%. They show occasional spikes (e.g., XRP at 200% in 2024), likely tied to specific events like regulatory news for XRP.
+
+- **Post-2021 Behavior**: After the 2021 peak, volatility across all coins trends downward, reflecting a broader crypto market stabilization. However, SHIB remains the most volatile, while BTC and ETH consistently show the least volatility, rarely exceeding 80% after 2021.
+
+**Takeaway**
+
+The plot highlights SHIB’s extreme volatility due to its speculative nature, while BTC and ETH exhibit more stability as mature assets. ADA and XRP fall in between, with volatility influenced by market events. The overall decline in volatility post-2021 suggests a maturing crypto market, though smaller coins like SHIB remain prone to sharp price swings.
+
+---
+
+# **Correlation Analysis**
+
+![image alt](https://github.com/LexMainye/Crypto-Price-Analysis/blob/0c276fedf75b51f54187039d48fff82bc3fe2af6/crypto_kes_5year_project/5year_plots/Monthly%20Plots/Correlation%20analysis/correlation_heatmap_all_assets.png)
+
+**Cryptocurrency Correlation Analysis**
+---
+
+This heatmap displays the correlation coefficients between five major cryptocurrencies: Bitcoin (BTC), Ethereum (ETH), Cardano (ADA), Shiba Inu (SHIB), and Ripple (XRP).
+
+**Key Observations:**
+
+- **Strongest Correlations:**
+  - ETH-SHIB: 0.79 (highest non-self correlation)
+  - BTC-ETH: 0.78
+  - BTC-XRP: 0.77
+  - ETH-ADA: 0.68
+
+- **Weakest Correlations:**
+  - SHIB-XRP: 0.31 (lowest correlation)
+  - SHIB-ADA: 0.37
+  - BTC-ADA: 0.43
+  - ADA-XRP: 0.49
+
+**Pattern Analysis:**
+
+1. **Ethereum's Central Role:** ETH shows strong correlations with most other cryptocurrencies (0.78 with BTC, 0.79 with SHIB, 0.68 with ADA), suggesting it may function as a connecting element in the crypto ecosystem.
+
+2. **Bitcoin's Influence:** BTC has strong correlations with ETH (0.78) and XRP (0.77), but surprisingly moderate correlation with ADA (0.43) and SHIB (0.50).
+
+3. **Market Segments:** The data suggests potential market segmentation:
+   - BTC, ETH, and XRP form a highly correlated group (traditional/established cryptocurrencies)
+   - SHIB and ADA show weaker correlations with others except for SHIB's strong connection to ETH (0.79)
+
+4. **Independence:** ADA shows the most independence, with no correlation above 0.68 (with ETH) and generally lower correlations across the board.
+
+This correlation matrix indicates that while cryptocurrency prices generally move together to some degree, there are distinct patterns that likely reflect differences in market perception, use cases, and investor bases across these digital assets.
+
+---
+
+# ** GARCH Insights**
+
+![image alt](https://github.com/LexMainye/Crypto-Price-Analysis/blob/0c276fedf75b51f54187039d48fff82bc3fe2af6/crypto_kes_5year_project/5year_plots/Monthly%20Plots/GARCH%20Model%20Plots/ADA_garch_volatility.png)
+![image alt](https://github.com/LexMainye/Crypto-Price-Analysis/blob/0c276fedf75b51f54187039d48fff82bc3fe2af6/crypto_kes_5year_project/5year_plots/Monthly%20Plots/GARCH%20Model%20Plots/BTC_garch_volatility.png)
+![image alt](https://github.com/LexMainye/Crypto-Price-Analysis/blob/0c276fedf75b51f54187039d48fff82bc3fe2af6/crypto_kes_5year_project/5year_plots/Monthly%20Plots/GARCH%20Model%20Plots/ETH_garch_volatility.png)
+![image alt](https://github.com/LexMainye/Crypto-Price-Analysis/blob/0c276fedf75b51f54187039d48fff82bc3fe2af6/crypto_kes_5year_project/5year_plots/Monthly%20Plots/GARCH%20Model%20Plots/SHIB_garch_volatility.png)
+![image alt](https://github.com/LexMainye/Crypto-Price-Analysis/blob/0c276fedf75b51f54187039d48fff82bc3fe2af6/crypto_kes_5year_project/5year_plots/Monthly%20Plots/GARCH%20Model%20Plots/XRP_garch_volatility.png)
+
+**GARCH Plots Insights**
+---
+
+Below is a Markdown table summarizing the 30-day annualized volatility forecasts (in %) for BTC, ETH, ADA, XRP, and SHIB over five time horizons (h.1 to h.5), assumed to be daily forecasts from April 3 to April 7, 2025.
+
+| Time Horizon | Date        | BTC Volatility (%) | ETH Volatility (%) | ADA Volatility (%) | XRP Volatility (%) | SHIB Volatility (%) |
+|--------------|-------------|--------------------|--------------------|--------------------|--------------------|---------------------|
+| h.1          | April 3, 2025 | 7.353750          | 12.981131          | 18.365538          | 18.586405          | 26.116238           |
+| h.2          | April 4, 2025 | 7.448382          | 13.094276          | 19.295015          | 25.372660          | 26.620958           |
+| h.3          | April 5, 2025 | 7.539884          | 13.204931          | 20.200559          | 31.246878          | 27.110241           |
+| h.4          | April 6, 2025 | 7.628357          | 13.313150          | 21.082785          | 36.331632          | 27.584560           |
+| h.5          | April 7, 2025 | 7.713903          | 13.418988          | 21.942295          | 40.733022          | 28.044372           |
+
+**Plot Observations**
+
+- **Volatility**: Values represent the forecasted 30-day annualized volatility in percentage terms, indicating expected price fluctuations.
+
+- **Time Horizons**: Assumed to be daily forecasts starting from April 3, 2025, based on the current date (April 2, 2025).
+
+- **Trends**: All cryptocurrencies show increasing volatility over the five days, with XRP exhibiting the most significant rise (from 18.59% to 40.73%), while BTC has the smallest increase (7.35% to 7.71%).
+
+**GARCH Plot Insights**
+1. **ADA (Cardano)**  
+   - **Historical Volatility**: Ranges mostly between 5%–15%, with spikes up to 25% (e.g., early 2021, mid-2022, and early 2025).
+
+   - **Pattern**: Volatility clusters with frequent spikes, reflecting ADA’s sensitivity to market events, but generally stabilizes around 5%–10% in calmer periods.
+
+   - **Forecast (18.37%–21.94%)**: The forecasted 30-day annualized volatility (18.37% on April 3, rising to 21.94% by April 7) translates to a daily volatility of about 1.16%–1.38% (since 21.94% / √252 ≈ 1.38%). This is higher than the typical 5%–10% daily volatility in the GARCH plot, suggesting a period of increasing uncertainty, possibly due to an upcoming event or market shift.
+
+2. **BTC (Bitcoin)**  
+   - **Historical Volatility**: Ranges between 2%–5%, with occasional spikes to 6% (e.g., early 2021, mid-2022).
+
+   - **Pattern**: BTC shows lower and more stable volatility compared to others, with fewer extreme spikes, reflecting its maturity.
+
+   - **Forecast (7.35%–7.71%)**: The forecasted annualized volatility (7.35% to 7.71%) translates to a daily volatility of about 0.46%–0.49%. This is lower than the GARCH plot’s typical range (2%–5%), indicating that BTC is expected to be less volatile than its historical average, aligning with its trend of stability in 2024–2025.
+
+3. **ETH (Ethereum)**  
+   - **Historical Volatility**: Ranges between 2%–6%, with spikes to 10% (e.g., early 2021, mid-2022).  
+   - **Pattern**: ETH shows moderate volatility with clustering, higher than BTC but lower than smaller coins, reflecting its active ecosystem (e.g., DeFi, NFTs).  
+   - **Forecast (12.98%–13.42%)**: The forecasted annualized volatility (12.98% to 13.42%) translates to a daily volatility of about 0.82%–0.85%. This is lower than the GARCH plot’s typical range (2%–6%), suggesting ETH is expected to be less volatile than its historical norm, possibly due to a stable market environment.
+
+4. **XRP (Ripple)**  
+   - **Historical Volatility**: Ranges between 5%–15%, with extreme spikes to 50% (e.g., early 2021, early 2025).  
+   - **Pattern**: XRP shows high volatility with significant spikes, likely tied to regulatory developments (e.g., SEC lawsuit updates).  
+   - **Forecast (18.59%–40.73%)**: The forecasted annualized volatility (18.59% to 40.73%) translates to a daily volatility of about 1.17%–2.57%. The forecast starts within the GARCH plot’s typical range (5%–15%) but rises sharply, aligning with the early 2025 spike (around 50%), suggesting a period of significant uncertainty, possibly due to regulatory or market events.
+
+5. **SHIB (Shiba Inu)**  
+   - **Historical Volatility**: Ranges between 0%–20%, with an extreme spike to 100% in mid-2021.  
+   - **Pattern**: SHIB exhibits extreme volatility early on, reflecting its speculative nature, but stabilizes below 10% after 2021, with occasional spikes.  
+   - **Forecast (26.12%–28.04%)**: The forecasted annualized volatility (26.12% to 28.04%) translates to a daily volatility of about 1.65%–1.77%. This is higher than the GARCH plot’s recent range (0%–10%), but much lower than its 2021 peak (100%), indicating a moderate increase in volatility compared to recent history, consistent with SHIB’s speculative behavior.
+
+**Relating GARCH Plots to Forecasts**
+
+- **Volatility Levels**: The GARCH plots show daily conditional volatility, while the forecasts are 30-day annualized. To compare, we convert annualized forecasts to daily by dividing by √252 (e.g., 28.04% / √252 ≈ 1.77% for SHIB). The forecasts generally align with or exceed the GARCH plots’ recent volatility levels, except for BTC and ETH, which are lower than historical norms.
+
+- **Trends**: The forecasts show increasing volatility for all coins, which aligns with the GARCH plots’ recent upward spikes in early 2025 (e.g., XRP’s 50%, ADA’s 25%). This suggests the forecasts may be capturing a continuation of recent market turbulence.
+
+- **Asset-Specific Insights**:
+  - **BTC and ETH**: Forecasts indicate lower volatility than historical GARCH averages, consistent with their stability in 2024–2025.
+  - **ADA and SHIB**: Forecasts are higher than recent GARCH levels, suggesting a potential uptick in price uncertainty.
+  - **XRP**: The sharp rise in the forecast (18.59% to 40.73%) mirrors the GARCH plot’s early 2025 spike, indicating a significant event may be driving volatility.
+
+**Takeaway**
+
+The GARCH plots reveal historical volatility patterns, with SHIB showing the highest spikes (up to 100%), XRP and ADA showing moderate volatility (5%–15% with spikes), and BTC and ETH being the most stable (2%–6%). The forecasts for April 3–7, 2025, predict increasing volatility for all coins, with XRP showing the largest jump (18.59% to 40.73%), aligning with its recent GARCH spike. BTC and ETH forecasts are below historical norms, while ADA and SHIB are above recent levels, suggesting a period of heightened uncertainty for smaller coins, possibly due to market or asset-specific events.
+
+---
+# **Trading Implications**
+
+**Volatility-Based Position Sizing**
+
+![image alt](https://github.com/LexMainye/Crypto-Price-Analysis/blob/53db276104ee9bd6b36ab4bad537f38f6c9909ad/crypto_kes_5year_project/5year_plots/Monthly%20Plots/Volatility%20Based%20Strategy/ADA%20VAPS.png)
+![image alt](https://github.com/LexMainye/Crypto-Price-Analysis/blob/53db276104ee9bd6b36ab4bad537f38f6c9909ad/crypto_kes_5year_project/5year_plots/Monthly%20Plots/Volatility%20Based%20Strategy/BTC%20VAPS.png)
+![image alt](https://github.com/LexMainye/Crypto-Price-Analysis/blob/53db276104ee9bd6b36ab4bad537f38f6c9909ad/crypto_kes_5year_project/5year_plots/Monthly%20Plots/Volatility%20Based%20Strategy/ETH%20VAPS.png)
+![image alt](https://github.com/LexMainye/Crypto-Price-Analysis/blob/53db276104ee9bd6b36ab4bad537f38f6c9909ad/crypto_kes_5year_project/5year_plots/Monthly%20Plots/Volatility%20Based%20Strategy/SHIB%20VAPS.png)
+![image alt](https://github.com/LexMainye/Crypto-Price-Analysis/blob/53db276104ee9bd6b36ab4bad537f38f6c9909ad/crypto_kes_5year_project/5year_plots/Monthly%20Plots/Volatility%20Based%20Strategy/XRP%20VAPS.png)
+
+**Volatility-Based Position Sizing Insights:**
+---
+
+**1. Bitcoin (BTC) - The Stable Giant**
+- **Allocation Range**: 10%-80% of capital  
+- **Key Pattern**: Slow, predictable adjustments  
+- **Why?** BTC's volatility is mostly tied to macro trends (not sudden shocks). The strategy:  
+  - Cuts exposure during bull market frenzies (2021)  
+  - Maxes out during boring bear markets (2022)  
+
+**2. Ethereum (ETH) - The Overreactor**  
+- **Allocation Range**: 0%-120% (!) of capital  
+- **Key Pattern**: Wild swings beyond 100%  
+- **Why?** ETH's volatility spikes harder than BTC during upgrades/crashes. The strategy:  
+  - Nearly exited during The Merge (2022)  
+  - Got too aggressive during calm periods (risking overexposure)  
+
+**3. Cardano (ADA) - The Steady Performer**  
+- **Allocation Range**: 10%-80% of capital  
+- **Key Pattern**: Smoothest adjustments  
+- **Why?** ADA's PoS system dampens volatility. The strategy:  
+  - Gradually reduced exposure during 2021 hype  
+  - Slowly rebuilt positions during recovery  
+
+**4. XRP - The Legal Drama Queen**  
+- **Allocation Range**: 10%-70% of capital  
+- **Key Pattern**: Sudden drops on lawsuit news  
+- **Why?** Court rulings cause overnight volatility spikes. The strategy:  
+  - Panic-sold during SEC case (2021)  
+  - Recovered fast after legal wins (2023)  
+
+**5. Shiba Inu (SHIB) - The Wild Child**  
+- **Allocation Range**: 0%-60% of capital  
+- **Key Pattern**: Frequent zero allocations  
+- **Why?** Meme coin mania creates extreme volatility. The strategy:  
+  - Fully exited during 2021 pump-and-dumps  
+  - Stayed ultra-conservative even in "calm" periods  
+
+---
+
+**Quick Comparison Table**
+
+| Crypto | Max Allocation | Key Driver | Strategy Behavior |  
+|--------|---------------|------------|------------------|  
+| **BTC** | 80% | Macro trends | Slow, steady adjustments |  
+| **ETH** | 120% | Tech upgrades | Overreacts to changes |  
+| **ADA** | 80% | Staking cycles | Smoothest transitions |  
+| **XRP** | 70% | Legal news | Emergency drops on lawsuits |  
+| **SHIB** | 60% | Meme hype | Frequent full exits |  
+
+
+---
+
+# **Volatility Breakout Strategy**
+
+![image alt](https://github.com/LexMainye/Crypto-Price-Analysis/blob/4a27ea261aa5b27ddd4d73eaeb526cb1caefa412/crypto_kes_5year_project/5year_plots/Monthly%20Plots/Vol%20Breakout%20Signals/ADA%20VBS.png)
+![image alt](https://github.com/LexMainye/Crypto-Price-Analysis/blob/4a27ea261aa5b27ddd4d73eaeb526cb1caefa412/crypto_kes_5year_project/5year_plots/Monthly%20Plots/Vol%20Breakout%20Signals/BTC%20VBS.png)
+![image alt](https://github.com/LexMainye/Crypto-Price-Analysis/blob/4a27ea261aa5b27ddd4d73eaeb526cb1caefa412/crypto_kes_5year_project/5year_plots/Monthly%20Plots/Vol%20Breakout%20Signals/ETH%20VBS.png)
+![image alt](https://github.com/LexMainye/Crypto-Price-Analysis/blob/4a27ea261aa5b27ddd4d73eaeb526cb1caefa412/crypto_kes_5year_project/5year_plots/Monthly%20Plots/Vol%20Breakout%20Signals/SHIB%20VBS.png)
+![image alt](https://github.com/LexMainye/Crypto-Price-Analysis/blob/4a27ea261aa5b27ddd4d73eaeb526cb1caefa412/crypto_kes_5year_project/5year_plots/Monthly%20Plots/Vol%20Breakout%20Signals/XRP%20VBS.png)
+
+**Volatility Breakout Analysis**
+---
+
+**Individual Cryptocurrency Volatility Breakout Signals Analysis**  
+
+**1. Bitcoin (BTC)**  
+- **Pattern**: Cyclical volatility tied to **macro trends** (halvings, ETF inflows, Fed policy).  
+  - **2021**: Extreme breakout (USD 100K signal) during bull run.  
+  - **2022**: Collapse (bear market).  
+  - **2023**: Recovery (~USD 30K).  
+  - **2024–2025**: Anticipated surge (halving + institutional demand).  
+- **Key Driver**: Store-of-value narrative; reacts to **liquidity cycles**.  
+
+**2. Ethereum (ETH)**  
+- **Pattern**: Tech-driven volatility (upgrades, DeFi/NFT trends).  
+  - **2021**: ATH breakout (USD 5K signal).  
+  - **2022**: Bear market slump.  
+  - **2023**: Rebound (Shanghai upgrade).  
+  - **2024–2025**: Proto-Danksharding + ETF speculation.  
+- **Key Driver**: Utility (smart contracts); more **fundamental** than BTC.  
+
+**3. Cardano (ADA)**  
+- **Pattern**: Development-phase volatility (slow but steady growth).  
+  - **2021**: Peak (3.0 signal) from smart contract launch hype.  
+  - **2022–2023**: Sideways (lack of adoption).  
+  - **2024–2025**: Potential breakout (Hydra scaling, governance updates).  
+- **Key Driver**: Academic rigor; slower but **structured** growth.  
+
+**4. Shiba Inu (SHIB)**  
+- **Pattern**: Meme-fueled spikes (retail FOMO).  
+  - **2021**: Vertical rally (social media hype).  
+  - **2022–2023**: Collapse (no utility).  
+  - **2024–2025**: Possible meme cycle repeat (low probability).  
+- **Key Driver**: Pure speculation; **high-risk gambling**.  
+
+ **5. XRP (Ripple)**  
+- **Pattern**: Regulatory-dependent volatility.  
+  - **2021–2022**: Flat (SEC lawsuit).  
+  - **2023**: July spike (court win).  
+  - **2024–2025**: Binary outcome (SEC resolution = moon or doom).  
+- **Key Driver**: Legal clarity; **asymmetric risk/reward**.  
+
+---
+
+**Comparative Analysis**  
+
+| **Metric**       | **BTC**              | **ETH**               | **ADA**             | **SHIB**            | **XRP**              |  
+|------------------|----------------------|-----------------------|---------------------|---------------------|----------------------|  
+| **Volatility Driver** | Macro liquidity  | Tech upgrades       | Development milestones | Social media hype  | Legal outcomes      |  
+| **2021 Signal**  | Extreme (USD 100K)      | High (USD 5K)           | Moderate (3.0)      | Extreme (Meme mania)| Low (SEC overhang)  |  
+| **2022–2023**    | Bear market          | Bear + rebound       | Stagnation          | Collapse            | Legal limbo → Spike  |  
+| **2024–2025**    | Halving rally        | ETF + scalability    | Hydra/scaling       | Low probability     | SEC resolution      |  
+| **Risk Profile**  | Medium (Blue-chip)   | Medium-High          | High (Slow growth)  | Extreme (No utility)| Extreme (Binary)    |  
+| **Best For**     | Long-term holders   | Traders (newsflow)  | Patient investors  | Degens/gamblers    | Event traders       |  
+
+---
+ **Key Takeaways**  
+1. **BTC/ETH**: "Safe" volatility (predictable cycles).  
+2. **ADA**: High risk/reward if adoption accelerates.  
+3. **SHIB**: Avoid unless meme season returns.  
+4. **XRP**: All-or-nothing bet on regulation.  
+
+**Final Advice**: Diversify into **BTC/ETH** for stability, **ADA/XRP** for asymmetric bets, and avoid **SHIB** unless gambling.
+
+---
+
