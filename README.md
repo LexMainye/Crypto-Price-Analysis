@@ -35,7 +35,7 @@ start_date = end_date - timedelta(days=5*365)
 - [Features](#features)
 - [Data Sources](#data-sources)
 - [Installation & Setup]()
-- [Analysis Ouput Explanations]()
+- [Analysis Findings]()
 
 ## Features
 
@@ -255,3 +255,4 @@ graph TD
 3. Open `crypto_price_analysis.ipynb` and update the `data_path` if needed
 
 ---
+# Analysis Findings
