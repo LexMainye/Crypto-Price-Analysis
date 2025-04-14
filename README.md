@@ -1,7 +1,7 @@
 # Cryptocurrency Price Comparison Analysis
 [![Bitcoin](https://img.shields.io/badge/Bitcoin-BTC-orange?logo=bitcoin)](https://bitcoin.org/en/)
 [![Ethereum](https://img.shields.io/badge/Ethereum-ETH-blue?logo=ethereum)](https://ethereum.org/en/)
-[![XRP](https://img.shields.io/badge/XRP-XRP-black?logo=xrp)](https://ripple.com/xrp/)
+[![Ripple](https://img.shields.io/badge/XRP-XRP-black?logo=xrp)](https://ripple.com/xrp/)
 [![Cardano](https://img.shields.io/badge/Cardano-ADA-blueviolet?logo=cardano)](https://cardano.org/)
 [![Shiba Inu](https://img.shields.io/badge/Shiba_Inu-SHIB-red?logo=dogecoin)](https://www.shibatoken.com/)
 
